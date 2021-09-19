@@ -1,6 +1,6 @@
-## Credit Card Fraud Detection Project
+# ![#FFFF00](https://via.placeholder.com/15/FFFF00/000000?text=+) Credit Card Fraud Detection
 
-# About the data:
+# ![#FFFF00](https://via.placeholder.com/15/FFFF00/000000?text=+) About the data:
 It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
 
 
@@ -38,4 +38,43 @@ Fabrizio Carcillo, Yann-Aël Le Borgne, Olivier Caelen, Frederic Oblé, Gianluca
 
 Yann-Aël Le Borgne, Gianluca Bontempi Machine Learning for Credit Card Fraud Detection - Practical Handbook
 
+## ![#FFFF00](https://via.placeholder.com/15/FFFF00/000000?text=+) Algorithms used:
+LogisticRegression
+
+XGBClassifier
+
+GaussianNB
+
+KNeighborsClassifier
+
+DecisionTreeClassifier
+
+RandomForestClassifier
+
+AdaBoostClassifier
+
+GradientBoostingClassifier
+
+## ![#FFFF00](https://via.placeholder.com/15/FFFF00/000000?text=+) Key problems adressed:
+The dataset was imbalanced almost 99% of the data belonged to class 0 which is not fraud , hence I have used SMOTE (Synthetic Minority Oversampling TEchnique)
+to balance the data.
+(https://imbalanced-learn.org/stable/over_sampling.html)
+
+## ![#FFFF00](https://via.placeholder.com/15/FFFF00/000000?text=+) Algorithm and its score:
+
+![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+)RandomForestClassifier	0.999886
+	
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  XGBClassifier	0.999833
+	
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  KNeighborsClassifier	0.999314
+	
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  DecisionTreeClassifier	0.998699
+	
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  GradientBoostingClassifier	0.987461
+	
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) LogisticRegression	0.981130
+	
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  AdaBoostClassifier	0.980963
+	
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  GaussianNB	0.924846
 
